@@ -1,0 +1,35 @@
+=====================================================================================
+              REPORTE DIAGNÓSTICO COMPLETO DE RENDIMIENTO
+=====================================================================================
+[LINEAL_SIMPLE]
+  Entrenamiento (Train):
+    R²:  0.473 | R² Adj: -0.120 | RMSE: 0.779 | MAE: 0.640
+    Error Máx: 1.630 | Desv. Est. Residuos: 0.779
+  Validación (Test):
+    R²: -0.433 | RMSE: 1.063 | MAE: 0.791
+    Error Máx: 1.858
+-------------------------------------------------------------------------------------
+[RIDGE]
+  Entrenamiento (Train):
+    R²:  0.380 | R² Adj: -0.317 | RMSE: 0.844 | MAE: 0.694
+    Error Máx: 1.586 | Desv. Est. Residuos: 0.844
+  Validación (Test):
+    R²: -0.170 | RMSE: 0.960 | MAE: 0.739
+    Error Máx: 1.787
+-------------------------------------------------------------------------------------
+[LASSO]
+  Entrenamiento (Train):
+    R²:  0.419 | R² Adj: -0.234 | RMSE: 0.817 | MAE: 0.676
+    Error Máx: 1.669 | Desv. Est. Residuos: 0.817
+  Validación (Test):
+    R²: -0.449 | RMSE: 1.069 | MAE: 0.855
+    Error Máx: 1.776
+-------------------------------------------------------------------------------------
+[ELASTICNET]
+  Entrenamiento (Train):
+    R²:  0.385 | R² Adj: -0.307 | RMSE: 0.841 | MAE: 0.692
+    Error Máx: 1.609 | Desv. Est. Residuos: 0.841
+  Validación (Test):
+    R²: -0.303 | RMSE: 1.013 | MAE: 0.791
+    Error Máx: 1.706
+-------------------------------------------------------------------------------------
